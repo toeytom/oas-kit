@@ -11,6 +11,7 @@ context|Array|Output|The context stack of associated with errors in a validation
 debug|Boolean|Input|Flag to enable debug mode, adds specification-extensions
 direct|Boolean|Input|Flag to indicate that only the converted OpenApi definition should be returned, not wrapped in options
 encoding|String|Input|Encoding to use when reading/writing files
+examples|Boolean|Input|Flag to generate response examples from schemas where the source definition supplies none
 expectFailure|Boolean|Input|Flag to invert the status of a validation step
 externalRef|Object|Internal|When `prevalidate` is true, holds the entire object representing an externally `$ref`d file
 externalRefs|Object|Internal|Used to track resolved external references

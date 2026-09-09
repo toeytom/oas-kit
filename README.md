@@ -1,5 +1,13 @@
 # OAS-Kit
 
+> **This is a fork** of [Mermade/oas-kit](https://github.com/Mermade/oas-kit). It adds the
+> `--examples` option to `swagger2openapi`, which generates response examples from schemas
+> where the source definition supplies none - see
+> [Response example generation](packages/swagger2openapi/README.md#response-example-generation).
+> The package is also published standalone at
+> [toeytom/swagger2openapi](https://github.com/toeytom/swagger2openapi) so it can be installed
+> directly with `npm i github:toeytom/swagger2openapi`.
+
 This is the mono-repo for the following related projects
 
 * [swagger2openapi](packages/swagger2openapi/README.md)
